@@ -291,25 +291,26 @@ config_server
 
 WorldManager
 Global:
->all objects> ie: terminals, containers, ticket collectors, persistent_npcs, shuttles, 
-planets
-Heightmap cache
-Zone Regions
-Client Effects
-Attribute Keys
-Sounds
-Moods
-NPC Converse Animations
-NPC Chatter
-NPC Cities
-Badge Regions
-Spawn Regions
-World Scripts > lua
-Creature Spawn Regions
+>all objects
+*terminals *containers *ticket *collectors *persistent_npcs *shuttles *
+*planets
+*Heightmap cache
+*Zone Regions
+*Client Effects
+*Attribute Keys
+*Sounds
+*Moods
+*NPC Converse Animations
+*NPC Chatter
+*NPC Cities
+*Badge Regions
+*Spawn Regions
+*World Scripts (lua)
+*Creature Spawn Regions
 Galaxy:
-harvesters
-factories
-player buildings
-player cities
-items
-resource_containers
+*harvesters
+*factories
+*player buildings
+*player cities
+*items
+*resource_containers
