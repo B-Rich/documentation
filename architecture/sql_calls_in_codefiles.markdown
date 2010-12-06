@@ -2,13 +2,16 @@ Code files that have sql calls
 
 BadgeRegionFactory
 Global:
+
 * badge regions
 
 BuildingFactory
 Global:
+
 * npc buildings
 
 CellFactory
+
 * loads cells and what's inside of them
 
 CharacterLoginHandler
@@ -21,15 +24,19 @@ Galaxy:
 
 CityFactory
 Global: 
+
 * city information by regions
 
 CombatManager
 Global:
+
 * weapon_groups
 
 ContainerobjectFactory
 Galaxy:
+
 * Inventory
+
 * resource containers
 
 ConversationManager
@@ -39,42 +46,67 @@ Global:
 
 CraftingSession
 Global:
+
 * draft_schematics
+
 * draft_schematic_customization
+
 * skills
+
 Galaxy:
+
 * item_attributes
+
 * manufactureschematic
 
 DatapadFactory
 Galaxy:
+
 * sf_getDatapadObjectCount
+
 * waypoints
+
 * items  mfg schematics
+
 * datapads
 
 EntertainerManager
 Galaxy:
+
 * player credits
+
 * ImageDesigner
+
 * stats
+
 * appearance
+
 * character_attributes
+
 * denied players
+
 * entertainer_deny_service
+
 * Musician
+
 Global:
 * entertainer_performances
+
 * holoemote
+
 * id_attributes
+
 
 FactoryBase
 Global:
 * AttributeMap
 
+
 FactoryFactory
 Galaxy:
+
 * Hopper
+
 * resource_containers
 * item_attributes
 * items
