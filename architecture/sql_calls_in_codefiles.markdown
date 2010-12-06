@@ -6,7 +6,7 @@ badge regions
 
 BuildingFactory
 Global:
-npc buildings
+>npc buildings
 
 CellFactory
 loads cells and what's inside of them
@@ -50,22 +50,22 @@ DatapadFactory
 Galaxy:
 sf_getDatapadObjectCount
 waypoints
-items - mfg schematics
+items > mfg schematics
 datapads
 
 EntertainerManager
 Galaxy:
 player credits
 ImageDesigner
--stats
--appearance
--character_attributes
+>stats
+>appearance
+>character_attributes
 denied players
 entertainer_deny_service
 Musician
 Global:
--entertainer_performances
--holoemote
+>entertainer_performances
+>holoemote
 id_attributes
 
 FactoryBase
@@ -75,11 +75,11 @@ AttributeMap
 FactoryFactory
 Galaxy:
 Hopper
--resource_containers
--item_attributes
--items
--structure_attributes
--factories
+>resource_containers
+>item_attributes
+>items
+>structure_attributes
+>factories
 
 HarvesterFactory
 Galaxy:
@@ -291,7 +291,7 @@ config_server
 
 WorldManager
 Global:
--all objects- ie: terminals, containers, ticket collectors, persistent_npcs, shuttles, 
+>all objects> ie: terminals, containers, ticket collectors, persistent_npcs, shuttles, 
 planets
 Heightmap cache
 Zone Regions
@@ -304,7 +304,7 @@ NPC Chatter
 NPC Cities
 Badge Regions
 Spawn Regions
-World Scripts - lua
+World Scripts > lua
 Creature Spawn Regions
 Galaxy:
 harvesters
